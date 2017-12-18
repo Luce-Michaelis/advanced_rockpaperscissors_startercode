@@ -1,1 +1,16 @@
+#Rock{
+    height: 250px;
+}
+#scissors{
+    height: 250px;
+    
 
+}
+#paper{
+    height: 250px;
+    width:250px;
+}
+
+#instructions{
+  font-family: 'Dancing Script', cursive;  
+}

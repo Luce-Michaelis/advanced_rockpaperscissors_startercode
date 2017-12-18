@@ -12,6 +12,7 @@
       <!-- Latest compiled and minified Bootstrap CSS -->
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous"> <!-- Bootstrap CSS  -->
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
       
   </head>
 
@@ -27,8 +28,7 @@
     <div class="container text-center">
     
       <h1>Advance Rock Paper Scissors Game</h1>
-      <p>The players hold closed fists up at about ear level and incant, "one, two, three, shoot!" At "shoot," the fists are lowered to about mid-chest level, and the players reveal one of three gestures.
-
+      <p id="instructions">The players hold closed fists up at about ear level and incant, "one, two, three, shoot!" At "shoot," the fists are lowered to about mid-chest level, and the players reveal one of three gestures.
 Rock
 The hand is kept as a fist.
 Paper
@@ -43,8 +43,26 @@ There's not a lot of strategy, but the game is strangely addictive, and since it
 This game it's exactly that difference is you're playing against a computer. You type your gesture in the imput and Good Luck!</p>
 
 
+
     
     </div>
+    <div>
+      <img class="game" id= 'Rock' src='https://pbs.twimg.com/profile_images/885491686327169024/ufh03Wmg_400x400.jpg'>
+      <img class="game" id= 'scissors' src='http://vectortoons.com/wp-content/uploads/2015/05/scissors-emoji-collection-008-205x400.jpg'>
+      <img class="game" id='paper' src='http://static1.1.sqspcdn.com/static/f/536258/25435804/1410540173927/crumpled_paper_texture_by_pkgam-d73k5mj.jpg?token=poPPFsezH2ZvU7V78NrlpEVoNTw%3D'>
+    </div>
+<div>
+   <input type="text"><button id="input">Insert your selection</button>
+</div>
+<div id="c-choice">
+</div>
+<div>
+  <p id="outcome"></p>
+</div>
+
+
+
+
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script> 

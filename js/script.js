@@ -1,4 +1,135 @@
 //Class 1:
+$(document).ready(function() {
+    $("#input").click(function() {
+        var computadora=['rock', 'scissors', "paper"];
+        var computeranswers= computadora[Math.floor(Math.random()*computadora.length)];
+        $("#c-choice").html(computeranswers)
+        var input=$('input').val();
+        
+        if (input === "Rock"){
+                if(computeranswers==="rock"){
+                        $('#outcome').html("Tie")
+                } 
+                if(computeranswers==="paper"){
+                        $('#outcome').html("Lose") 
+                        
+                }
+                if(computeranswers==="scissors"){
+                        $('#outcome').html("Win")
+                }
+        }
+
+        if (input === "paper"){
+                if(computeranswers==="paper"){
+                        $('#outcome').html("Tie")
+                } 
+               if(computeranswers==="scissors"){
+                        $('#outcome').html("Lose")
+                } 
+                if(computeranswers==="rock"){
+                        $('#outcome').html("Win")
+                }
+        }
+        
+         if (input === "scissors"){
+                if(computeranswers==="scissors"){
+                        $('#outcome').html("Tie")
+                } 
+                if(computeranswers==="rock"){
+                        $('#outcome').html("Lose") 
+                        
+                }
+                if(computeranswers==="paper"){
+                        $('#outcome').html("Win")
+                        
+                }
+        }
+
+        });
+});
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
         // Fork and clone the repo and set up your project workspace and link files
         // Write HTML for your project
 //Class 2:  
